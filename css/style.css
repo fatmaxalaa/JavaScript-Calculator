@@ -1,0 +1,85 @@
+body{
+        background-color: cadetblue;
+}
+.calculator{
+        width: 350px;
+        height: 500px;
+        background-color: white;
+       margin: 0 auto;
+       position: relative;
+       top: 30px;
+        border-radius: 5px;
+        box-shadow: 5px 12px 5px #30303098;
+}
+.result{
+        height: 90px;
+        text-align: right;
+        font-size: 30px;
+        margin-right: 10px;
+        color: #919191;
+        width: 325px;
+        border: none;
+
+}
+
+.keyboard {
+        margin-left: 15px;
+        margin-top: 10px;
+}
+.operator , .number , .empty {
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+        float: left;
+        border-radius: 50%;
+        border: none;
+        font-size: 17px;
+}
+.number , .empty {
+        background-color: white;
+}
+.number , .operator{
+        cursor: pointer;
+}
+.operator {
+        font-weight: bold;
+       
+}
+.operator:active , .number:active {
+        font-size: 14px;
+}
+.operator:nth-child(1){
+        background-color: #ffedcc;
+        color: black;
+}
+.operator:nth-child(2){
+        background-color: #d9f2eb;
+        color: black;
+}
+.operator:nth-child(3){
+        background-color: #f6dbd5;
+        color: black;
+}
+
+.operator:nth-child(4){
+        background-color: #fdac53;
+        color: white;
+}
+
+.operator:nth-child(8){
+        background-color:  #0072B5;
+        color: white;
+}
+.operator:nth-child(12){
+        background-color:  #926AA6;
+        color: white;
+}
+.operator:nth-child(16){
+        background-color:   #9A8B4F;
+        color: white;
+}
+.operator:nth-child(20){
+        background-color:  #D2386C;
+        color: white;
+}
+

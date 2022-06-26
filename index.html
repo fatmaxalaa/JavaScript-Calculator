@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="container">
+                <div class="calculator" id="reset">
+                        <input type="text" id="input" class="result" >
+                        <div class="keyboard">
+                                <input type="button" id ="clear" class="operator" onclick="clear()" value="C">
+                                <!-- <button class="operator" id="clear" onclick="calculate()" value="reset">C</button> -->
+                                <button class="operator" id="clearr">CE</button>
+                                <button class="operator" id="dividd">%</button>
+                                <button class="operator" id="div" value="/" onclick="divide() ">&divide</button>
+                                <button class="number" id="no7" value="7" onclick="operation7() ">7</button>
+                                <button class="number" id="no8"value="8" onclick="operation8() ">8</button>
+                                <button class="number"id="no9" value="9" onclick="operation9() ">9</button>
+                                <button class="operator"id="mult" value="*" onclick="multi()">&times</button>
+                                <button class="number" id="no6" value="6" onclick="operation6() ">6</button>
+                                <button class="number"id="no5" value="5" onclick="operation5() ">5</button>
+                                <button class="number" id="no4" value="4" onclick="operation4() ">4</button>
+                                <button class="operator" id="sub" value="-" onclick="sub()">&#8722</button>
+                                <button class="number"id="no1" value="1" onclick="operation1()" value="1">1</button>
+                                <button class="number"id="no2" value="2" onclick="operation2() ">2</button>
+                                <button class="number"id="no3" value="3" onclick="operation3() ">3</button>
+                                <button class="operator"id="sum" value="+" onclick="sum()">+</button>
+                                <button class="empty"></button>
+                                <button class="number" value="0" id="no0" onclick="operation0() " >0</button>
+                                <button class="empty"></button>
+                                <button class="operator" id="equal" value="=" onclick="operationequal() ">=</button>
+                        </div>
+                </div>
+        </div>
+
+        <script src="js/main.js"></script>
+</body>
+</html>
